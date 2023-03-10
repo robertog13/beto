@@ -6,7 +6,7 @@ import About from './Pages/About/About';
 function App() {
   return (
       <Switch>
-        <Route exact path="/" component={ Home }/>
+        <Route exact path="/beto" component={ Home }/>
         <Route path="/about" component={ About } /> 
       </Switch>
   );
